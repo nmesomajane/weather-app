@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+.weather{
+    place-self: center;
+    
+    margin: 50px;
+    padding: 20px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "roboto",sans-serif;
+}
+.searchbar{
+    
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    border-radius: 50%;
+}
+.searchbar span{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.searchbar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 25px;
+    color: rgba(0, 0, 0, 0.874);
+    font-size: 18px;
+} 
+
+.icon {
+     width: 50px;
+    padding: 15px;
+     border-radius: 50%; 
+    cursor: pointer;
+}
+
+.weathericon{
+    width: 150px;
+    margin: 30px 0;
+}
+.temp{
+    color: black ;
+    font-size: 50px;
+    line-height: 1;
+}
+.location{
+    color: black ;
+    font-size: 40px;
+
+}
+.weatherdata{
+    width: 100%;
+    margin-top: 40px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.col{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.weatherdata.col span{
+    display: block;
+    font-size: 16px;
+}
+.weatherdata .col .i{
+    width: 26px;
+    margin-top: 10px;
+}
+.icons{
+    color: blanchedalmond;
+}
